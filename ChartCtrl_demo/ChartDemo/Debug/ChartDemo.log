@@ -1,0 +1,86 @@
+﻿生成启动时间为 2023/8/12 10:09:10。
+     1>项目“F:\技术资料\ChartCtrl_demo\ChartDemo\ChartDemo.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IChartCtrl /IColourPicker /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/ChartDemo.pch" /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IChartCtrl /IColourPicker /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/ChartDemo.pch" /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt ChartDemo.cpp ChartDemoDlg.cpp LinePropDialog.cpp PointsPropDialog.cpp SeriesPropDlg.cpp SurfacePropDialog.cpp ChartCtrl\ChartAxis.cpp ChartCtrl\ChartAxisLabel.cpp ChartCtrl\ChartBarSerie.cpp ChartCtrl\ChartCandlestickSerie.cpp ChartCtrl\ChartCrossHairCursor.cpp ChartCtrl\ChartCtrl.cpp ChartCtrl\ChartCursor.cpp ChartCtrl\ChartDateTimeAxis.cpp ChartCtrl\ChartDragLineCursor.cpp ChartCtrl\ChartFont.cpp ChartCtrl\ChartGanttSerie.cpp ChartCtrl\ChartGradient.cpp ChartCtrl\ChartGrid.cpp ChartCtrl\ChartLegend.cpp ChartCtrl\ChartLineSerie.cpp ChartCtrl\ChartLogarithmicAxis.cpp ChartCtrl\ChartPointsSerie.cpp ChartCtrl\ChartScrollBar.cpp ChartCtrl\ChartSerie.cpp ChartCtrl\ChartStandardAxis.cpp ChartCtrl\ChartSurfaceSerie.cpp ChartCtrl\ChartTitle.cpp ChartCtrl\ChartXYSerie.cpp ColourPicker\ColourPicker.cpp ColourPicker\ColourPopup.cpp
+         ColourPopup.cpp
+         ColourPicker.cpp
+         ChartXYSerie.cpp
+         ChartTitle.cpp
+         ChartSurfaceSerie.cpp
+         ChartStandardAxis.cpp
+         ChartSerie.cpp
+         ChartScrollBar.cpp
+         ChartPointsSerie.cpp
+         ChartLogarithmicAxis.cpp
+         ChartLineSerie.cpp
+         ChartLegend.cpp
+         ChartGrid.cpp
+         ChartGradient.cpp
+         ChartGanttSerie.cpp
+         ChartFont.cpp
+         ChartDragLineCursor.cpp
+         ChartDateTimeAxis.cpp
+         ChartCursor.cpp
+         ChartCtrl.cpp
+         正在生成代码...
+         正在编译...
+         ChartCrossHairCursor.cpp
+         ChartCandlestickSerie.cpp
+         ChartBarSerie.cpp
+         ChartAxisLabel.cpp
+         ChartAxis.cpp
+         SurfacePropDialog.cpp
+         SeriesPropDlg.cpp
+         PointsPropDialog.cpp
+         LinePropDialog.cpp
+         ChartDemoDlg.cpp
+         ChartDemo.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /l"0x040c" /nologo /fo".\Debug\ChartDemo.res" ChartDemo.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/ChartDemo.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug/ChartDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ChartDemo.lib" /MACHINE:X86 /SAFESEH .\Debug\ChartDemo.res
+         .\Debug/ChartDemo.obj
+         .\Debug/ChartDemoDlg.obj
+         .\Debug/LinePropDialog.obj
+         .\Debug/PointsPropDialog.obj
+         .\Debug/SeriesPropDlg.obj
+         .\Debug/StdAfx.obj
+         .\Debug/SurfacePropDialog.obj
+         .\Debug/ChartAxis.obj
+         .\Debug/ChartAxisLabel.obj
+         .\Debug/ChartBarSerie.obj
+         .\Debug/ChartCandlestickSerie.obj
+         .\Debug/ChartCrossHairCursor.obj
+         .\Debug/ChartCtrl.obj
+         .\Debug/ChartCursor.obj
+         .\Debug/ChartDateTimeAxis.obj
+         .\Debug/ChartDragLineCursor.obj
+         .\Debug/ChartFont.obj
+         .\Debug/ChartGanttSerie.obj
+         .\Debug/ChartGradient.obj
+         .\Debug/ChartGrid.obj
+         .\Debug/ChartLegend.obj
+         .\Debug/ChartLineSerie.obj
+         .\Debug/ChartLogarithmicAxis.obj
+         .\Debug/ChartPointsSerie.obj
+         .\Debug/ChartScrollBar.obj
+         .\Debug/ChartSerie.obj
+         .\Debug/ChartStandardAxis.obj
+         .\Debug/ChartSurfaceSerie.obj
+         .\Debug/ChartTitle.obj
+         .\Debug/ChartXYSerie.obj
+         .\Debug/ColourPicker.obj
+         .\Debug/ColourPopup.obj
+     1>ChartDemo.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         ChartDemo.vcxproj -> F:\技术资料\ChartCtrl_demo\ChartDemo\.\Debug\ChartDemo.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug/ChartDemo.bsc" .\Debug\ChartDemo.sbr .\Debug\ChartDemoDlg.sbr .\Debug\LinePropDialog.sbr .\Debug\PointsPropDialog.sbr .\Debug\SeriesPropDlg.sbr .\Debug\StdAfx.sbr .\Debug\SurfacePropDialog.sbr .\Debug\ChartAxis.sbr .\Debug\ChartAxisLabel.sbr .\Debug\ChartBarSerie.sbr .\Debug\ChartCandlestickSerie.sbr .\Debug\ChartCrossHairCursor.sbr .\Debug\ChartCtrl.sbr .\Debug\ChartCursor.sbr .\Debug\ChartDateTimeAxis.sbr .\Debug\ChartDragLineCursor.sbr .\Debug\ChartFont.sbr .\Debug\ChartGanttSerie.sbr .\Debug\ChartGradient.sbr .\Debug\ChartGrid.sbr .\Debug\ChartLegend.sbr .\Debug\ChartLineSerie.sbr .\Debug\ChartLogarithmicAxis.sbr .\Debug\ChartPointsSerie.sbr .\Debug\ChartScrollBar.sbr .\Debug\ChartSerie.sbr .\Debug\ChartStandardAxis.sbr .\Debug\ChartSurfaceSerie.sbr .\Debug\ChartTitle.sbr .\Debug\ChartXYSerie.sbr .\Debug\ColourPicker.sbr .\Debug\ColourPopup.sbr
+     1>已完成生成项目“F:\技术资料\ChartCtrl_demo\ChartDemo\ChartDemo.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.88
